@@ -56,6 +56,24 @@
     margin-bottom: 2.5rem;
  }
 
+ .underlined{
+    position: relative;
+    display: inline-block;
+}
+
+.underlined::after {
+   
+    content: "";
+    display: block;
+    width: 15%; /* 15% width relative to the content of h1 */
+    height: 2px; /* Adjust this value to control the thickness of the line */
+    background-color:  #34D7DF;/* Adjust the color to your preference */
+    position: absolute;
+    bottom: -10px; /* 10px away from the text */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
 
  #hero-section p {
     max-width: 500px;
