@@ -9,8 +9,42 @@ nav{
 #hero-section{
     color: blue;
 }
+.ourstory{
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+}
+#big_logo{
+    align-items: flex-start;
+    padding-left: 28rem;
+    Padding-right: 5rem;
+    margin: 20px;
+    width: 25vh;
+    height: 25vh;
+}
+#OurStoryTitle{
+    text-align:left;
+    padding-bottom: 2rem;
+}
+#OurStoryText{
+    display: block;
+    width: 65vh;
+}
+#OurstoryText2{ display:block;
+    width: 50vh;
+}
 #our_story-section{
     color: green;
+}
+#LearnMoreButton{
+    align-items:flex-start;
+    margin-top: 5vh;
+    width: 15vh;
+    color: green;
+    background-color: transparent;
+    border: 2px solid green;
+    padding: 10px;
+    font-size: large;
 }
 #watch-section{
     color: darkred;
