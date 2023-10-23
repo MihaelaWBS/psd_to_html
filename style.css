@@ -46,9 +46,31 @@ nav{
     padding: 10px;
     font-size: large;
 }
-#watch-section{
-    color: darkred;
+#watch-section-img{
+    display: flex;
+    width: 100%;
 }
+#watch-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+#play-button {
+    position: absolute;
+    width:  100px;
+    height: 100px;
+    width:auto
+  }
+#StoryWatch{
+    position: absolute;
+    bottom: 35%;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+    left:46%
+}
+
 #expertise-section{
     color: fuchsia;
 }
