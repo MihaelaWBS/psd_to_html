@@ -110,9 +110,38 @@
 #watch-section{
     color: darkred;
 }
+
+/* Expertise-section start */
+
 #expertise-section{
-    color: fuchsia;
+    display: flex;
+    flex-direction-column;
+    align-items: center;
 }
+
+.title-content h2 {
+    text-transform: uppercase;
+    color: black;
+}
+.title-content p {
+    color: black;
+}
+
+.title-content .underlined::after {
+    background-color: black;
+}
+
+.grid-content {
+    display: grid;
+    
+}
+
+.grid-content h3 {
+    text-transform: uppercase;
+    color: black;
+}
+
+/* Expertise-section end*/
 #team-section{
     color: yellowgreen;
 }
