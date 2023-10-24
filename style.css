@@ -278,15 +278,40 @@
 
 /* Expertise-section end*/
 
-
+/* Team-Section Start */
 #team-section{
-    color: yellowgreen;
+    color: white;
+    background-image: url(design-assets/bgk-header.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
+#team-section > h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+#team-section > h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.team-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+/* Team-Section Ends */
 #contact_client-section{
     color: lightsalmon;
 }
 footer {
-    width: 100vw;
     color: white;
     background-image: url(design-assets/bgk-footer.png);
     background-repeat: no-repeat;
