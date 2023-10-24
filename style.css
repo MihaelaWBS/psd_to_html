@@ -26,12 +26,37 @@ nav{
 }
 footer{
     width: 100vw;
-    color: blueviolet;
+    color: white;
     background-image: url(design-assets/bgk-footer.png);
     background-repeat: no-repeat;
     background-color: #46366c;
 }
+.first-row-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first-row-footer > h1{
+    font-size: 15px;
+    font-weight: 900;
+
+}
+#logo-footer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 #social-icons{
     width: 50px;
     height: 50px;
+}
+.second-row-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.second-row-footer > p{
+    max-width: 14rem;
+    font-weight: 300;
+    font-size: 14px;
 }
