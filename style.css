@@ -30,13 +30,17 @@ footer{
     background-image: url(design-assets/bgk-footer.png);
     background-repeat: no-repeat;
     background-color: #46366c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.5fr 1fr 0.5fr;
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     padding: 3rem;
-
 }
 #logo-footer{
     display: flex;
@@ -50,7 +54,7 @@ footer{
     color: linear-gradient(to right, #00e0d0 0%,#4aa3cc 100%);
 
 }
-footer > h1{
+#footer > h1{
     display: flex;
     align-items: center;
     justify-items: center;
@@ -74,7 +78,7 @@ footer > h1{
     padding-top: 1rem;
 }
 .phone_number > h3{
-    font-size: 14px;
+     font-size: 14px;
     font-weight: 300;
     font-style: normal;
 }
@@ -88,5 +92,32 @@ footer > h1{
 #text-footer{
     font-weight: 300;
     font-size: 15px;
-    max-width: 22rem;
+    max-width: 18rem;
+}
+#email-input{
+    background: none;
+    border: 1px solid white;
+    padding-right: 4rem;
+    padding-left: 1rem;
+    max-height: 3rem;
+}
+::placeholder{
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    line-height: 1em;
+
+}
+#button-footer{
+    background-color: white;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+    opacity: 0.5;
+}
+.email-input{
+    display: flex;
+    gap: 1rem;
+    opacity: 0.5;
 }
