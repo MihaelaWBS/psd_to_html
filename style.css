@@ -206,18 +206,33 @@
 
 /* Expertise-section start */
 
+
 #expertise-section{
     display: flex;
     flex-direction:column;
     align-items: center;
+    padding: 3rem;
+}
+
+.title-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
 }
 
 .title-content h2 {
     text-transform: uppercase;
     color: black;
+    margin-bottom: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 .title-content p {
     color: black;
+    margin-bottom: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
 }
 
 .title-content .underlined::after {
@@ -229,19 +244,41 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     width: 60%;
+    gap: 10px;
+    justify-items: center; /* the grid was correctly aligned but the grid cells were not centered in the grid  */
     
 }
 
-.grid-content h3 {
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+
+}
+
+.grid-item h3 {
     text-transform: uppercase;
     color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-bottom: 1rem;
 }
 
-.grid-item {
-
+.grid-item p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-bottom: 1rem;
 }
+
+.img-wrap {
+    margin-bottom: 1rem;
+}
+
 
 /* Expertise-section end*/
+
+
 #team-section{
     color: yellowgreen;
 }
