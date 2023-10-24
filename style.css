@@ -2,13 +2,122 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-}
-nav{
-    color: red;
-}
+
+    /* header start */
+
+    header {
+        background-image: url(/design-assets/bgk-footer.png);
+        padding: 40px;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .first-container .logo p {
+        color: #34D7DF;
+        font-weight: 100;
+        font-size: 1.5rem;
+
+    }
+
+    .first-container {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 20px;
+        text-transform: uppercase;
+    }
+
+    .first-container nav ul li {
+        list-style: none;
+       
+    }
+
+    .first-container  nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+
+    .first-container  nav ul li a:hover{
+        color: #34D7DF;
+    }
+
+
 #hero-section{
-    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
+
+#hero-section h1 {
+    max-width: 500px;
+    color: white;
+    margin-bottom: 2.5rem;
+    font-size: 1.8rem;
+    
+ }
+
+ #hero-section p {
+    line-height: 1.6;
+ }
+
+
+ .underlined{
+    position: relative;
+    display: inline-block;
+}
+
+.underlined::after {
+   
+    content: "";
+    display: block;
+    width: 15%; /* 15% width relative to the content of h1 */
+    height: 2px; /* Adjust this value to control the thickness of the line */
+    background-color:  #34D7DF;/* Adjust the color to your preference */
+    position: absolute;
+    bottom: -10px; /* 10px away from the text */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+
+ #hero-section p {
+    max-width: 500px;
+    color: white;
+    margin-bottom: 2.5rem;
+    font-weight: 200;
+ }
+
+ #hero-section button{
+    
+    border: 1px solid #34D7DF;
+    width: fit-content;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 2.5rem;
+ }
+
+ #hero-section button a {
+    color: #34D7DF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+ }
+
+ #hero-section button a:hover{
+    color: white;
+ }
+
+/* header end */
+
 #our_story-section{
     color: green;
 }
