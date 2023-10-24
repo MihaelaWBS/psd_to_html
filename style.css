@@ -133,12 +133,19 @@
 
 .grid-content {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
     
 }
 
 .grid-content h3 {
     text-transform: uppercase;
     color: black;
+}
+
+.grid-item {
+
 }
 
 /* Expertise-section end*/
