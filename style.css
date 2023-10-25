@@ -102,16 +102,19 @@
     font-weight: 200;
  }
 
- #hero-section button{
-    
+.button > button{
     border: 1px solid #34D7DF;
     width: fit-content;
-    background-color: transparent;
-    padding: 10px;
+    background: none;
+    padding: 1rem;
     margin-bottom: 2.5rem;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
  }
 
- #hero-section button a {
+.button a {
     color: #34D7DF;
     text-transform: uppercase;
     text-decoration: none;
@@ -119,7 +122,7 @@
     
  }
 
- #hero-section button a:hover{
+.button a:hover{
     color: white;
  }
 
@@ -168,10 +171,10 @@
 #LearnMoreButton {
     align-self: center;
     margin-top: 5vh;
-    width: 15vh;
-    color: green;
+    width: 10rem;
+    border: 1px solid #34D7DF;
+    color:#34D7DF;
     background-color: transparent;
-    border: 2px solid green;
     padding: 10px;
     font-size: large;
 }
@@ -202,11 +205,11 @@
     color: white;
     white-space: nowrap;
     text-align: center;
+    text-decoration: none;
     bottom:30%;
     left: 50%;
     transform:translateX(-50%);
 }
-
 
 /* Expertise-section start */
 
@@ -216,6 +219,57 @@
     flex-direction:column;
     align-items: center;
     padding: 3rem;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.contact-form textarea{
+    width: 15rem;
+    height: 7.5rem;
+    border-color: rgba(211, 211, 211, 0.76);
+}
+.contact-form input{
+    width: 15rem;
+    height: 1.5rem;
+    border-color:  rgba(211, 211, 211, 0.76);
+    border-style: solid;
+}
+.contact-form textarea::placeholder{
+    color: rgba(211, 211, 211, 0.815);
+}
+.contact-form input::placeholder{
+    color: rgba(211, 211, 211, 0.815);
+}
+#message {
+    resize: none;
+}
+
+.image-grid {
+    flex:1;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+    padding: 1.5rem;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: 70%;
+    height: 60%;
 }
 
 .title-content {
@@ -283,14 +337,63 @@
 
 /* Expertise-section end*/
 
-
+/* Team-Section Start */
 #team-section{
-    color: yellowgreen;
+    color: white;
+    background-image: url(design-assets/bgk-header.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
+#team-section > h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+#team-section > h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.team-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+#join-us{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.name-and-status{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #ffffff80;
+    border-left: 1px solid #ffffff80;
+    border-right: 1px solid #ffffff80;
+    margin-top: -1rem;
+}
+.position{
+    font-weight: 300;
+}
+.name-and-surname {
+    font-weight: 900;
+}
+/* Team-Section Ends */
 #contact_client-section{
     color: lightsalmon;
 }
-footer {
+footer{
     width: 100vw;
     color: white;
     background-image: url(design-assets/bgk-footer.png);
