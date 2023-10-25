@@ -203,8 +203,35 @@
     transform:translateX(-50%);
 }
 
-#expertise-section{
-    color: fuchsia;
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.image-grid {
+    flex:1;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+    padding: 1.5rem;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
 }
 #team-section{
     color: yellowgreen;
