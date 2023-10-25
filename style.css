@@ -164,10 +164,10 @@
 #LearnMoreButton {
     align-self: center;
     margin-top: 5vh;
-    width: 15vh;
-    color: green;
+    width: 10rem;
+    border: 1px solid #34D7DF;
+    color:#34D7DF;
     background-color: transparent;
-    border: 2px solid green;
     padding: 10px;
     font-size: large;
 }
@@ -198,6 +198,7 @@
     color: white;
     white-space: nowrap;
     text-align: center;
+    text-decoration: none;
     bottom:30%;
     left: 50%;
     transform:translateX(-50%);
