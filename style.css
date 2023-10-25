@@ -167,10 +167,10 @@
 #LearnMoreButton {
     align-self: center;
     margin-top: 5vh;
-    width: 15vh;
-    color: green;
+    width: 10rem;
+    border: 1px solid #34D7DF;
+    color:#34D7DF;
     background-color: transparent;
-    border: 2px solid green;
     padding: 10px;
     font-size: large;
 }
@@ -201,11 +201,11 @@
     color: white;
     white-space: nowrap;
     text-align: center;
+    text-decoration: none;
     bottom:30%;
     left: 50%;
     transform:translateX(-50%);
 }
-
 
 /* Expertise-section start */
 
@@ -215,6 +215,57 @@
     flex-direction:column;
     align-items: center;
     padding: 3rem;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.contact-form textarea{
+    width: 15rem;
+    height: 7.5rem;
+    border-color: rgba(211, 211, 211, 0.76);
+}
+.contact-form input{
+    width: 15rem;
+    height: 1.5rem;
+    border-color:  rgba(211, 211, 211, 0.76);
+    border-style: solid;
+}
+.contact-form textarea::placeholder{
+    color: rgba(211, 211, 211, 0.815);
+}
+.contact-form input::placeholder{
+    color: rgba(211, 211, 211, 0.815);
+}
+#message {
+    resize: none;
+}
+
+.image-grid {
+    flex:1;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+    padding: 1.5rem;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: 70%;
+    height: 60%;
 }
 
 .title-content {
@@ -337,7 +388,8 @@
 #contact_client-section{
     color: lightsalmon;
 }
-footer {
+footer{
+    width: 100vw;
     color: white;
     background-image: url(design-assets/bgk-footer.png);
     background-repeat: no-repeat;
