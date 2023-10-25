@@ -220,6 +220,27 @@
     margin: 0 auto;
 }
 
+.contact-form textarea{
+    width: 15rem;
+    height: 7.5rem;
+    border-color: rgba(211, 211, 211, 0.76);
+}
+.contact-form input{
+    width: 15rem;
+    height: 1.5rem;
+    border-color:  rgba(211, 211, 211, 0.76);
+    border-style: solid;
+}
+.contact-form textarea::placeholder{
+    color: rgba(211, 211, 211, 0.815);
+}
+.contact-form input::placeholder{
+    color: rgba(211, 211, 211, 0.815);
+}
+#message {
+    resize: none;
+}
+
 .image-grid {
     flex:1;
     display: grid;
@@ -230,8 +251,8 @@
 }
 
 .image-grid img {
-    width: 100%;
-    height: auto;
+    width: 70%;
+    height: 60%;
 }
 #team-section{
     color: yellowgreen;
