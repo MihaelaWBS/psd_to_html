@@ -544,3 +544,13 @@ footer{
     font-weight: 500;
     padding-left: 30%;
 }
+.submitbutton {
+    color: #34D7DF;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid #34D7DF;
+    background-color: transparent;
+    font-size: large;
+}
