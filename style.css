@@ -167,14 +167,18 @@
 #LearnMoreButton {
     align-self: center;
     margin-top: 5vh;
-    width: 10rem;
+    font-size: 16px;
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 2.5rem;
     border: 1px solid #34D7DF;
     color:#34D7DF;
     background-color: transparent;
-    padding: 10px;
+    padding: 1rem;
     font-size: large;
     text-decoration: none;
     text-align: center;
+    font-family: 'Hammersmith One', 
 }
 #LearnMoreButton:hover{
     color: black;
@@ -237,14 +241,18 @@
     padding: 20px;
     margin: 0 auto;
 }
-
+.contact-form p{
+    font-weight: bold;
+    color: black;
+    letter-spacing: 0.1rem;
+}
 .contact-form textarea{
-    width: 15rem;
-    height: 7.5rem;
+    width: 100%;
+    height: 11rem;
     border-color: rgba(211, 211, 211, 0.76);
 }
 .contact-form input{
-    width: 15rem;
+    width: 100%;
     height: 1.5rem;
     border-color:  rgba(211, 211, 211, 0.76);
     border-style: solid;
@@ -268,6 +276,12 @@
     justify-content: center;
 }
 
+.image-grid p{
+    font-weight: bold;
+    color: black;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+}
 .image-grid img {
     width: 70%;
     height: 60%;
@@ -544,7 +558,7 @@ footer{
     font-weight: 500;
     padding-left: 30%;
 }
-.submitbutton {
+.form-container .submitbutton {
     color: #34D7DF;
     text-transform: uppercase;
     text-align: center;
@@ -552,5 +566,14 @@ footer{
     font-weight: 600;
     border: 1px solid #34D7DF;
     background-color: transparent;
-    font-size: large;
+    font-size: small;
+    width:fit-content;
+    padding: 0.5rem 2rem;
+    height:fit-content;
+    transition: 0.2s;
+
+}
+.form-container .submitbutton:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
