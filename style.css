@@ -3,7 +3,11 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-    /* header start */
+    /* header start 
+
+    <!-- font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif; --> */
 
     header {
         background-image: url(design-assets/bgk-header.png);
@@ -60,16 +64,21 @@
     padding: 20px;
 }
 
+
 #hero-section h1 {
     max-width: 500px;
     color: white;
     margin-bottom: 2.5rem;
     font-size: 1.8rem;
+    font-family: 'Playfair Display', serif;
     
  }
 
  #hero-section p {
     line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    
  }
 
 
@@ -115,7 +124,9 @@
     color: #34D7DF;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 300;
+    font-family: 'Hammersmith One', sans-serif;
+    
  }
 
 .button a:hover{
@@ -315,8 +326,8 @@
 .grid-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    width: 60%;
+    grid-template-rows: 1fr 1fr;
+    width: 70%;
     gap: 10px;
     justify-items: center; /* the grid was correctly aligned but the grid cells were not centered in the grid  */
     
@@ -326,7 +337,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 70%;
 
 }
 
@@ -342,6 +353,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .img-wrap {
