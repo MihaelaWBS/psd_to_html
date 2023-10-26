@@ -173,6 +173,8 @@
     background-color: transparent;
     padding: 10px;
     font-size: large;
+    text-decoration: none;
+    text-align: center;
 }
 #watch-section-img{
     display: flex;
