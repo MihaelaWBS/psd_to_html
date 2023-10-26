@@ -176,6 +176,9 @@
     text-decoration: none;
     text-align: center;
 }
+#LearnMoreButton:hover{
+    color: black;
+}
 #watch-section-img{
     display: flex;
     width: 100%;
