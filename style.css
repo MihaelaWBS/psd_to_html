@@ -161,25 +161,27 @@
 #OurStoryTitle {
     text-align: center;
     padding-bottom: 2rem;
+    font-family: 'Playfair Display', serif;;
 }
 
 #OurStoryText {
     max-width: 65%;
     margin: auto;
-    text-align: center;
+    text-align: left wrap;
+
 }
 
 #OurstoryText2 {
-    max-width: 50%;
+    max-width: 65%;
     margin: auto;
-    text-align: center;
+    text-align: left wrap;
+
 }
 
 #LearnMoreButton {
     align-self: center;
     margin-top: 5vh;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 1.5rem;
     width: fit-content;
     margin-bottom: 2.5rem;
     border: 1px solid #34D7DF;
@@ -189,7 +191,7 @@
     font-size: large;
     text-decoration: none;
     text-align: center;
-    font-family: 'Hammersmith One', 
+    font-family: 'Playfair Display', serif;
 }
 #LearnMoreButton:hover{
     color: black;
@@ -199,6 +201,7 @@
     width: 100%;
 }
 #watch-section {
+    font-family: 'Playfair Display', serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,9 +209,8 @@
   }
 #play-button{
     position: absolute;
-    width:  100px;
-    height: 100px;
-    width:auto;
+    width:  6rem;
+    height: 6rem;
   }
 
 #play-button img {
@@ -254,6 +256,7 @@
 }
 .contact-form p{
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
     color: black;
     letter-spacing: 0.1rem;
 }
@@ -288,6 +291,7 @@
 }
 
 .image-grid p{
+    font-family: 'Playfair Display', serif;
     font-weight: bold;
     color: black;
     margin-top: 1rem;
@@ -583,6 +587,7 @@ footer{
     padding: 0.5rem 2rem;
     height:fit-content;
     transition: 0.2s;
+    font-family: 'Playfair Display', serif;
 
 }
 .form-container .submitbutton:hover{
