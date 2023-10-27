@@ -181,17 +181,15 @@
 #LearnMoreButton {
     align-self: center;
     margin-top: 5vh;
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: fit-content;
     margin-bottom: 2.5rem;
     border: 1px solid #34D7DF;
     color:#34D7DF;
     background-color: transparent;
     padding: 1rem;
-    font-size: large;
     text-decoration: none;
     text-align: center;
-    font-family: 'Playfair Display', serif;
 }
 #LearnMoreButton:hover{
     color: black;
